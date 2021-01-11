@@ -1,0 +1,56 @@
+.navbar-custom {
+    background-color: transparent;
+    /* background-image: -webkit-gradient(linear, 0% 48%, 0% 47%, from(transparent), to(opacity)); */
+    }
+
+  /* change the brand and text color */
+  /* .navbar-custom .navbar-brand, */
+  .navbar-custom .navbar-text {
+    color: rgba(92, 88, 88, 0.8);
+  }
+
+  /* change the link color */
+  .navbar-custom .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  /* change the color of active or hovered links */
+  .navbar-custom .nav-item.active .nav-link,
+  .navbar-custom .nav-item:hover .nav-link {
+    color: rgba(92, 88, 88, 0.8);
+  }
+
+  .jumbotron {
+      background-color: transparent;
+      /* color: white; */
+      text-align: center;
+    }
+
+
+    .card {
+    background-color: transparent;
+    border: transparent;
+}
+
+  .love {
+        font-family: Fallback, sans-serif;
+    }
+
+  body {
+    background-image: linear-gradient(pink, yellow);
+  }
+
+  .blink_me {
+    animation: blinker 1s linear infinite;
+    /* font-family: Fallback, sans-serif; */
+  }
+
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  a, .btn-link {
+    color: #212529;
+  }
